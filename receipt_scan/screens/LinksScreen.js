@@ -9,20 +9,38 @@ export default function LinksScreen() {
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
       <OptionButton
         icon="md-school"
-        label="Read the Expo documentation"
-        onPress={() => WebBrowser.openBrowserAsync('https://docs.expo.io')}
+        label="New York University"
+        onPress={() => WebBrowser.openBrowserAsync('https://www.linkedin.com/school/new-york-university/')}
       />
 
       <OptionButton
-        icon="md-compass"
-        label="Read the React Navigation documentation"
-        onPress={() => WebBrowser.openBrowserAsync('https://reactnavigation.org')}
+        icon="md-school"
+        label="Columbia University"
+        onPress={() => WebBrowser.openBrowserAsync('https://www.linkedin.com/school/columbia-university/')}
       />
 
       <OptionButton
-        icon="ios-chatboxes"
-        label="Ask a question on the forums"
-        onPress={() => WebBrowser.openBrowserAsync('https://forums.expo.io')}
+        icon="md-school"
+        label="Harvard University"
+        onPress={() => WebBrowser.openBrowserAsync('https://www.linkedin.com/school/harvard-university/')}
+      />
+
+      <OptionButton
+        icon="md-school"
+        label="Cornell University"
+        onPress={() => WebBrowser.openBrowserAsync('https://www.linkedin.com/school/cornell-university/')}
+      />
+
+      <OptionButton
+        icon="md-school"
+        label="Princeton University"
+        onPress={() => WebBrowser.openBrowserAsync('https://www.linkedin.com/school/princeton-university/')}
+      />
+
+      <OptionButton
+        icon="ios-person"
+        label="Dude it's obama"
+        onPress={() => WebBrowser.openBrowserAsync('https://www.linkedin.com/in/barackobama/')}
         isLastOption
       />
     </ScrollView>

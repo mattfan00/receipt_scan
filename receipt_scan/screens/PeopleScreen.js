@@ -8,27 +8,34 @@ export default function LinksScreen() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
       <OptionButton
-        icon = "ios-hammer"
+        icon = "ios-bookmark"
         label="Matthew Fan"
         onPress={() => WebBrowser.openBrowserAsync('https://github.com/mattfan00')}
       />
 
       <OptionButton
-        icon = "ios-flower"
+        icon = "ios-bookmark"
         label="Jay Li Quek"
         onPress={() => WebBrowser.openBrowserAsync('https://github.com/jayliquek')}
       />
 
       <OptionButton
-        icon="ios-lock"
+        icon="ios-bookmark"
         label="Karina Zhang"
         onPress={() => WebBrowser.openBrowserAsync('https://github.com/kzhang01')}
       />
 
     <OptionButton
-        icon = "ios-male"
+        icon = "ios-bookmark"
         label="Jonathan Xu"
         onPress={() => WebBrowser.openBrowserAsync('https://github.com/mistawasabi')}
+      />
+
+    <OptionButton
+        icon = "ios-bookmark"
+        label="Andrew Huang"
+        onPress={() => WebBrowser.openBrowserAsync('https://github.com/ando-huang')}
+        lastOption
       />
       
 
